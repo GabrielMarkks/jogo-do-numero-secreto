@@ -1,5 +1,5 @@
 let listaNumerosSorteados = [];
-let numeroMax = 10;
+let numeroMax = 100;
 let numeroSecreto = gerarNumeroSecreto();
 let chute;
 let tetativas = 1;
@@ -28,7 +28,7 @@ function criarTexto(tag, texto) {
 }
 
 criarTexto('h1', 'Jogo do Número Secreto!')
-criarTexto('p', 'Escolha um número de 1 a 10')
+criarTexto('p', 'Escolha um número de 1 a 100')
 
 function verificarChute() {
     chute = parseInt(document.querySelector('input').value);
